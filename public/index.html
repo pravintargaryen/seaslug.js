@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SeaSlug</title>
+  </head>
+  <body>
+    <h1>It Works</h1>
+    <button id="track-btn">Track Me</button>
+  </body>
+  <script type="module">
+    import SeaSlug from "./seaslug.js";
+
+    // Initialize
+    SeaSlug.init({
+      trackingId: "YOUR_TRACKING_ID",
+      debug: true,
+    });
+
+    // Example: Track a button click event
+    document.getElementById("track-btn").addEventListener("click", () => {
+      SeaSlug.track("button_click", { buttonId: "track-btn" });
+    });
+  </script>
+</html>

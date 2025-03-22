@@ -1,0 +1,16 @@
+{
+  "name": "seaslugjs",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "**SeaSlug.js** is a lightweight, developer-friendly frontend analytics tool inspired by the ocean's slow-and-steady sea slug. It crawls through your website to gather valuable insights, providing a playful yet powerful alternative to traditional analytics libraries.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
