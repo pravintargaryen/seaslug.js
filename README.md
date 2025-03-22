@@ -58,17 +58,19 @@ SeaSlug.track("button_click", {
 
 ## API Reference
 
-SeaSlug.init(config)
+1. SeaSlug.init(config)
 Initializes the library with your configuration.
 
-## Parameters:
+### Parameters:
 
-trackingId (required): Your unique tracking ID.
-debug (optional): Enables logging in the console.
-SeaSlug.track(eventName, eventData)
+- trackingId (required): Your unique tracking ID.
+- debug (optional): Enables logging in the console.
+2. SeaSlug.track(eventName, eventData)
 Tracks a custom event.
-eventName (required): Name of the event (e.g., "page_view").
-eventData (optional): Additional data to log with the event.
+
+### Parameters:
+- eventName (required): Name of the event (e.g., "page_view").
+- eventData (optional): Additional data to log with the event.
 
 🛡️ Privacy Policy
 SeaSlug.js is built with privacy in mind. It doesn’t collect personally identifiable information (PII) by default and complies with major data protection regulations.
